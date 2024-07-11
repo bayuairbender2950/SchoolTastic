@@ -56,4 +56,3 @@ app.use((req, res, next) => {
 server.listen(PORT, () => {
   console.log(chalk.blue("[EXPRESS]") + chalk.green(" Running on port:", PORT));
 });
-ssh.start();
